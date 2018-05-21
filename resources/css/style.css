@@ -1,0 +1,10 @@
+div {
+  border: 1px solid black;
+}
+
+
+
+/* Header with logo and navigation*/
+header {
+  display: flex;
+}
