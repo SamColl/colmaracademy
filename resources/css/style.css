@@ -2,7 +2,7 @@ div {
   border: 1px solid black;
 }
 
-body {
+html {
   font-size: 16px;
   width: 100%;
   height: auto;
@@ -42,3 +42,28 @@ header {
 .academy {
   font-size: 2rem;
 }
+@media only screen and (min-width:560px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+/* nav for mobile devices*/
+
+
+@media only screen and (max-width: 560px) {
+  .nav ul,
+  .colmar,
+  .academy {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu-icon img {
+    height: 2.5rem;
+    width: auto;
+  }
