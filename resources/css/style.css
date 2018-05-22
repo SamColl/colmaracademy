@@ -113,7 +113,6 @@ header {
 }
 .banner-text-container h4 {
   color: white;
-
 }
 .banner-button  {
   background-color: grey;
@@ -149,6 +148,7 @@ header {
 .banner-button {
   width: 90%;
   margin: 0 1rem 0 2rem;
+}
 }
 
 /* info section */
@@ -192,4 +192,34 @@ height: auto;
 
 .info-right-text-container {
   width: 65%;
+}
+@media only screen and (min-width: 560px) {
+  .mobile {
+      display: none;
+    }
+}
+
+/*  info section for mobile */
+
+@media only screen and (max-width: 560px) {
+  .info-left-column,
+  .desktop  {
+    display: none;
+  }
+  .info-right-container  {
+  flex-direction: column;
+  padding: 1rem;
+  }
+  .info-right-img-container,
+  .info-right-text-container  {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  img.mobile {
+    width: 100%;
+    height: auto;
+
+  }
+
 }
