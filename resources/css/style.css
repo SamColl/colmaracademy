@@ -223,3 +223,21 @@ height: auto;
   }
 
 }
+/* Course section */
+.course-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 4.5rem;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+.course-container {
+  max-width: 31%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.course-img-container img{
+  max-width: 100%;
+  height: auto;
+}
