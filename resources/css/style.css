@@ -156,7 +156,8 @@ header {
   dipslay: flex;
   flex-direction: column;
 }
-.info-left-column  {
+.info-left-column
+.thesis-left-column-container {
 display: flex;
 flex-direction: column;
 max-width: 60%;
