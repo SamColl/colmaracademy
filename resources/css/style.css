@@ -156,25 +156,26 @@ header {
   dipslay: flex;
   flex-direction: column;
 }
-.info-left-column
-.thesis-left-column-container {
+.left-column {
 display: flex;
 flex-direction: column;
 max-width: 60%;
 height: auto;
+padding-right: 1.5rem;
 }
-.info-left-img-container img,
-.info-left-text-container {
+.left-img-container img,
+.video-container video,
+.left-text-container {
   max-width: 100%;
   height: auto;
 }
-.info-right-column  {
+.right-column  {
   display: flex;
   flex-direction: column;
   max-width: 40%
   height: auto;
 }
-.info-right-container {
+.right-container {
   display: flex;
   max-width: 100%;
   height: auto;
@@ -182,16 +183,16 @@ height: auto;
 .info .container {
   margin-right: 0;
 }
-.info-right-img-container {
+.right-img-container {
   width: 35%;
   height: auto;
   padding: 1rem;
 }
-.info-right-img-container img {
+.right-img-container img {
   max-width: 100%;
 }
 
-.info-right-text-container {
+.right-text-container {
   width: 65%;
 }
 @media only screen and (min-width: 560px) {
@@ -203,16 +204,16 @@ height: auto;
 /*  info section for mobile */
 
 @media only screen and (max-width: 560px) {
-  .info-left-column,
+  .left-column,
   .desktop  {
     display: none;
   }
-  .info-right-container  {
+  .right-container  {
   flex-direction: column;
   padding: 1rem;
   }
-  .info-right-img-container,
-  .info-right-text-container  {
+  .right-img-container,
+  .right-text-container  {
     width: 100%;
     height: auto;
     padding: 0;
