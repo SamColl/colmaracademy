@@ -1,25 +1,39 @@
-div,
-section {
-  border: 1px solid black;
-}
+
 
 html {
   font-size: 16px;
+  font-family: 'Raleway', Arial, sans-serif;
+  color: rgb(71,72,67);
 }
 h1 {
   font-size: 3rem;
-  color: grey;
   font-weight: bold;
-  line-height: 1.5;
+
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 h3 {
   font-size: 2rem;
-  color: grey;
-  line-height: 1.5;
-  font-weight: bold;
+  line-height: 1;
+  text-align: left;
+  padding: 0;
 }
 h4  {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+}
+a {
+  text-decoration: none;
+}
+.banner,
+.courses {
+  background-color: rgb(248, 237, 209)
 }
 /* Header with logo and navigation*/
 header {
@@ -27,15 +41,21 @@ header {
   height: 4rem;
   width: 100%;
   justify-content: space-between;
-  border: 1px solid black;
+
 }
 .logo  {
   display: flex;
   align-items: center;
-  margin-left: 2rem
+  margin-left: 1.5rem
 }
 .logo img {
   height: 3rem;
+}
+.colmar {
+  font-weight: 600;
+}
+.academy {
+  font-weight: lighter;
 }
 .nav {
   display: flex;
@@ -82,14 +102,16 @@ header {
 
 /* banner section */
 .banner  {
-  background-color: lightgrey;
+
 }
 .container {
   display:flex;
   flex-direction: row;
   max-width: 100%;
   max-height: auto;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
+
+
 }
 .img-container {
   max-width: 60%;
@@ -100,8 +122,7 @@ header {
   max-width: 100%;
   max-height: auto;
 }
-.banner-text-container
-  {
+.banner-text-container  {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -115,7 +136,7 @@ header {
   color: white;
 }
 .banner-button  {
-  background-color: grey;
+  background-color: rgb(71,72,67);
   width: 100%;
   text-align: center;
   padding: 1rem 0rem;
@@ -169,16 +190,28 @@ padding-right: 1.5rem;
   max-width: 100%;
   height: auto;
 }
+.left-text-container h2 {
+  padding: 2rem 0 1.5rem 0;
+}
+#name {
+  font-size: 1rem;
+  padding: 1.5rem 0 2rem 0;
+}
 .right-column  {
   display: flex;
   flex-direction: column;
   max-width: 40%
   height: auto;
+
 }
 .right-container {
   display: flex;
   max-width: 100%;
   height: auto;
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+
+
 }
 .info .container {
   margin-right: 0;
@@ -194,6 +227,14 @@ padding-right: 1.5rem;
 
 .right-text-container {
   width: 65%;
+  margin: auto 0;
+
+}
+.right-text-container h3{
+  padding: 0;
+}
+.right-text-container p {
+  padding-top: 0.8rem;
 }
 @media only screen and (min-width: 560px) {
   .mobile {
@@ -242,4 +283,29 @@ padding-right: 1.5rem;
 .course-img-container img{
   max-width: 100%;
   height: auto;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 0 0 0;
+
+}
+.course-heading h1 {
+  text-align: center;
+  padding: 2rem 0;
+  text-align: center;
+}
+.courses .container {
+  padding-top: 0;
+}
+.course-text-container  {
+  padding: 1rem 0 0.5rem 1rem;
+}
+.course-text-container h3 {
+  padding: 0 0 1rem 0;
+  font-weight: bold;
+}
+.course-text-container h4 {
+  padding: 0.5rem 0 1.5rem 0;
 }
