@@ -33,6 +33,7 @@ a {
   color: rgb(57,106,146);
   font-weight: 600;
 }
+
 .banner,
 .courses {
   background-color: rgb(236,237,242)
@@ -145,7 +146,13 @@ header {
   text-align: center;
   padding: 1rem 0rem;
   margin: 1.5rem 0rem;
+  transition: background-color 0.25s ease-out 0.1s;
 }
+.banner-button:hover  {
+  background-color: rgb(174,18,21)
+}
+
+
 .banner-button a  {
   text-decoration: none;
 }
@@ -214,8 +221,10 @@ padding-right: 1.5rem;
   height: auto;
   border-left: 1px solid rgb(57,106,146);
   border-bottom: 1px solid rgb(57,106,146);
-
-
+  transition: background-color 0.75s linear 0.1s;
+}
+.right-container:hover  {
+    background-color: rgb(236,237,242);
 }
 .info .container {
   margin-right: 0;
@@ -232,8 +241,8 @@ padding-right: 1.5rem;
 .right-text-container {
   width: 65%;
   margin: auto 0;
-
 }
+
 .right-text-container h3{
   padding: 0;
 }
@@ -283,8 +292,10 @@ padding-right: 1.5rem;
   max-width: 31%;
   height: auto;
   margin-bottom: 2rem;
-
-
+  transition: transform 0.3s ease-out 0.1s;
+}
+.course-container:hover {
+  transform: scale(1.05);
 }
 .course-img-container img{
   max-width: 100%;
