@@ -3,7 +3,7 @@
 html {
   font-size: 16px;
   font-family: 'Raleway', Arial, sans-serif;
-  color: rgb(71,72,67);
+  color: rgb(9,29,66);
 }
 h1 {
   font-size: 3rem;
@@ -30,10 +30,12 @@ p {
 }
 a {
   text-decoration: none;
+  color: rgb(57,106,146);
+  font-weight: 600;
 }
 .banner,
 .courses {
-  background-color: rgb(248, 237, 209)
+  background-color: rgb(236,237,242)
 }
 /* Header with logo and navigation*/
 header {
@@ -69,6 +71,8 @@ header {
 }
 .nav ul li {
   padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .colmar,
 .academy {
@@ -136,7 +140,7 @@ header {
   color: white;
 }
 .banner-button  {
-  background-color: rgb(71,72,67);
+  background-color: rgb(57,106,146);
   width: 100%;
   text-align: center;
   padding: 1rem 0rem;
@@ -208,8 +212,8 @@ padding-right: 1.5rem;
   display: flex;
   max-width: 100%;
   height: auto;
-  border-left: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  border-left: 1px solid rgb(57,106,146);
+  border-bottom: 1px solid rgb(57,106,146);
 
 
 }
@@ -279,6 +283,8 @@ padding-right: 1.5rem;
   max-width: 31%;
   height: auto;
   margin-bottom: 2rem;
+
+
 }
 .course-img-container img{
   max-width: 100%;
@@ -301,6 +307,8 @@ padding-right: 1.5rem;
 }
 .course-text-container  {
   padding: 1rem 0 0.5rem 1rem;
+  background-color: white;
+  height: 12rem;
 }
 .course-text-container h3 {
   padding: 0 0 1rem 0;
@@ -308,4 +316,18 @@ padding-right: 1.5rem;
 }
 .course-text-container h4 {
   padding: 0.5rem 0 1.5rem 0;
+}
+
+/* footer */
+#footer {
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 1rem 2rem 1.5rem;
+  background-color: rgb(57,106,146);
+  color: white;
+  border-top: 1px solid rgb(57,106,146);
+  }
+#footer a {
+  color: white;
+  padding: 1rem;
 }
