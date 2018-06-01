@@ -23,7 +23,8 @@ h3 {
 h4  {
   font-size: 1.5rem;
 }
-p {
+p,
+blockquote {
   font-size: 1.2rem;
   line-height: 1.5;
 
@@ -60,17 +61,17 @@ header {
 .academy {
   font-weight: lighter;
 }
-.nav {
+nav {
   display: flex;
   align-items: center;
 }
-.nav ul {
+nav ul {
   display: flex;
   font-size: 2rem;
   margin-right: 2rem;
 
 }
-.nav ul li {
+nav ul li {
   padding-left: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -88,7 +89,7 @@ header {
 /* nav for mobile devices*/
 
 @media only screen and (max-width: 560px) {
-  .nav ul,
+  nav ul,
   .colmar,
   .academy {
     display: none;
@@ -146,7 +147,7 @@ header {
   text-align: center;
   padding: 1rem 0rem;
   margin: 1.5rem 0rem;
-  transition: background-color 0.25s ease-out 0.1s;
+  transition: background-color  linear;
 }
 .banner-button:hover  {
   background-color: rgb(174,18,21)
@@ -155,6 +156,14 @@ header {
 
 .banner-button a  {
   text-decoration: none;
+}
+.social {
+  text-align: center;
+  padding-top: 2rem;
+}
+.social a  {
+  padding: 1rem;
+
 }
 /* banner section for mobile */
 
@@ -292,7 +301,7 @@ padding-right: 1.5rem;
   max-width: 31%;
   height: auto;
   margin-bottom: 2rem;
-  transition: transform 0.3s ease-out 0.1s;
+  transition: transform 0.2s ease-out;
 }
 .course-container:hover {
   transform: scale(1.05);
@@ -330,7 +339,8 @@ padding-right: 1.5rem;
 }
 
 /* footer */
-#footer {
+footer .container {
+
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 1rem 2rem 1.5rem;
@@ -338,7 +348,7 @@ padding-right: 1.5rem;
   color: white;
   border-top: 1px solid rgb(57,106,146);
   }
-#footer a {
+footer a {
   color: white;
   padding: 1rem;
 }
