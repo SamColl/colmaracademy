@@ -269,7 +269,7 @@ padding-right: 1.5rem;
 /*  info section for mobile */
 
 @media only screen and (max-width: 560px) {
-  .left-column,
+  #info,
   .desktop  {
     display: none;
   }
@@ -377,6 +377,22 @@ padding-right: 1.5rem;
   .course-text-container h3 {
     padding-bottom: 1rem;
   }
+}
+
+/* mobile for thesis section */
+@media only screen and (max-width: 560px) {
+  #fisma-img,
+  #fisma,
+  #how,
+  #how-img,
+  #reimagine
+   {
+    display: none;
+  }
+#video {
+  max-width: 100%;
+  height: auto;
+}
 }
 
 
