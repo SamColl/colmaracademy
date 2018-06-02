@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 16px;
@@ -353,11 +355,14 @@ padding-right: 1.5rem;
   .course-content-container {
     flex-direction: column;
     width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0;
+    margin-right: 0;
   }
   .course-container {
     max-width: 100%;
+    margin-bottom: 0.5rem;
   }
   .courses .container {
     padding: 0;
@@ -368,6 +373,9 @@ padding-right: 1.5rem;
     height: auto;
     background-color: rgb(236,237,242);
 
+}
+  .course-text-container h3 {
+    padding-bottom: 1rem;
   }
 }
 
