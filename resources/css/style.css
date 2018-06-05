@@ -353,8 +353,8 @@ padding-right: 1.5rem;
 /* Course section for mobile */
 
 @media only screen and (max-width: 560px) {
-  .course-img-container,
-  .course-img-container img,
+
+  .course-img,
   .course-text-container h4,
   .course-text-container p {
     display:none;
@@ -386,6 +386,13 @@ padding-right: 1.5rem;
 }
   .course-text-container h3 {
     padding-bottom: 1rem;
+  }
+}
+/* course section for tablets */
+@media only screen and (max-width: 855px) and (min-width:559px) {
+  .course-text-container h3 {
+    font-size: 1.25rem;
+    font-weight: lighter;
   }
 }
 
