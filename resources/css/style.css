@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   font-size: 16px;
   font-family: 'Raleway', Arial, sans-serif;
@@ -10,7 +9,6 @@ html {
 h1 {
   font-size: 3rem;
   font-weight: bold;
-
 }
 h2 {
   font-size: 2.5rem;
@@ -29,25 +27,23 @@ p,
 blockquote {
   font-size: 1.2rem;
   line-height: 1.5;
-
 }
 a {
   text-decoration: none;
   color: rgb(57,106,146);
   font-weight: 600;
 }
-
 .banner,
 .courses {
   background-color: rgb(236,237,242)
 }
 /* Header with logo and navigation*/
+
 header {
   display: flex;
   height: 4rem;
   width: 100%;
   justify-content: space-between;
-
 }
 .logo  {
   display: flex;
@@ -71,7 +67,6 @@ nav ul {
   display: flex;
   font-size: 2rem;
   margin-right: 2rem;
-
 }
 nav ul li {
   padding-left: 1rem;
@@ -91,35 +86,31 @@ nav ul li {
 /* nav for mobile devices*/
 
 @media only screen and (max-width: 560px) {
-  nav ul,
-  .colmar,
-  .academy {
+nav ul,
+.colmar,
+.academy {
     display: none;
-  }
-  .mobile-menu {
+ }
+.mobile-menu {
     display: flex;
     width: 75%;
     justify-content: space-around;
     align-items: center;
-  }
-  .menu-icon img {
+ }
+.menu-icon img {
     height: 2.5rem;
     width: auto;
   }
 }
 
 /* banner section */
-.banner  {
 
-}
 .container {
   display:flex;
   flex-direction: row;
   max-width: 100%;
   max-height: auto;
   padding: 2rem 1.5rem;
-
-
 }
 .img-container {
   max-width: 60%;
@@ -154,8 +145,6 @@ nav ul li {
 .banner-button:hover  {
   background-color: rgb(174,18,21)
 }
-
-
 .banner-button a  {
   text-decoration: none;
 }
@@ -165,8 +154,8 @@ nav ul li {
 }
 .social a  {
   padding: 1rem;
-
 }
+
 /* banner section for mobile */
 
 @media only screen and (max-width:560px) {
@@ -195,6 +184,7 @@ nav ul li {
 }
 
 /* info section */
+
 .info {
   dipslay: flex;
   flex-direction: column;
@@ -224,7 +214,6 @@ padding-right: 1.5rem;
   flex-direction: column;
   max-width: 40%
   height: auto;
-
 }
 .right-container {
   display: flex;
@@ -286,7 +275,6 @@ padding-right: 1.5rem;
   img.mobile {
     width: 100%;
     height: auto;
-
   }
 
 }
@@ -305,7 +293,6 @@ padding-right: 1.5rem;
   transition: transform 0.2s ease-out;
   display: flex;
   flex-direction: column;
-
 }
 .course-container:hover {
   transform: scale(1.05);
@@ -314,14 +301,12 @@ padding-right: 1.5rem;
 .course-img{
   max-width: 100%;
   max-height: auto;
-
 }
 .heading {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 2rem 0 0 0;
-
 }
 .course-heading h1 {
   text-align: center;
@@ -337,17 +322,13 @@ padding-right: 1.5rem;
   display: flex;
   flex-direction: column;
   flex: 1;
-
-
 }
 .course-text-container h3 {
   padding: 0 0 1rem 0;
   font-weight: bold;
-
 }
 .course-text-container h4 {
   padding: 0.5rem 0 1.5rem 0;
-
 }
 
 /* Course section for mobile */
